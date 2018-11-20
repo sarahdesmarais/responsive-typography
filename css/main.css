@@ -12,36 +12,69 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
+  font-family: "Crimson Text", sans-serif;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 article {
   max-width: 43em;
+  margin-bottom: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+article p {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+}
+
+article ol {
+  padding-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
 }
 
 article h1 {
   font-weight: normal;
+  margin: 0;
 }
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1.3rem;
+  padding-top: 1.3rem;
 }
 
 article header p {
   font-style: italic;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 1.3rem;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1.3rem;
+  margi-bottom: 1.3rem;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .quote {
@@ -50,18 +83,78 @@ blockquote {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%
+    line-height: 1.4;
+  }
 
+  h1, p {
+    margin: 0 0 1.4rem;
+  }
+
+  article {
+    margin-bottom: 1.4rem;
+  }
+
+  article p {
+    margin-bottom: 1.4rem;
+  }
+
+  article ol {
+    margin-bottom: 1.4rem;
+  }
+
+  article header {
+    margin-bottom: 1.4rem;
+    padding-top: 1.4rem;
+  }
+
+  article > p:last-child {
+    margin-bottom: 1.4rem;
+    padding-bottom: 1.4rem;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%
+    line-height: 1.5;
+  }
 
+  h1, p {
+    margin: 0 0 1.5rem;
+  }
+
+  article {
+    margin-bottom: 1.5rem;
+  }
+
+  article p {
+    margin-bottom: 1.5rem;
+  }
+
+  article ol {
+    margin-bottom: 1.5rem;
+  }
+
+  article header {
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  article > p:last-child {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  html {
+    font-size: 130%;
+  }
 
 }
